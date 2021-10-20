@@ -15,6 +15,20 @@
   transform: translate(-50%, -50%);  
 }
 
+.eberly-alert-title {
+  padding: 2px;
+  margin: 0px;
+  flex: 0 1;
+  border: 1px inset;
+  /* overflow: hidden; */
+  height: 25px;
+  background: #b9b6b6;
+  color: white;
+  font-weight: bold;
+  font-family: arial;
+  font-size: 10pt;
+}
+
 .eberly-alert-content {
   padding: 2px;
   margin:  0px;
@@ -24,7 +38,7 @@
 .eberly-alert-buttonbar {
   flex: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .eberly-alert-shown {
@@ -36,8 +50,6 @@
 }
 
 .eberly-alert-button {
-  width: 50px;
-
   flex: 0;
   box-shadow: inset 0px 1px 0px 0px #ffffff;
   background: linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
