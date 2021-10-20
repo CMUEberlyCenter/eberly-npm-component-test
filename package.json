@@ -1,5 +1,5 @@
 {
-  "name": "eberly-react-library-template",
+  "name": "@cmu-eberly-center/eberly-react-library-template",
   "description": "A repo to test CMU Eberly component code and to prepare components for exporting as npm libraries",
   "author": "mindtoeye",
   "keywords": ["react", "components", "ui"],
