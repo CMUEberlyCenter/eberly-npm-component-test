@@ -12,8 +12,7 @@ Install using `npm install eberly-npm-component-test`
 
 In a React app, use the Alert component:  
 
-`import { Alert } from 'eberly-npm-component-test'`
-
+`import { Alert } from 'eberly-npm-component-test'
 
 class App extends Component {
 
@@ -51,4 +50,4 @@ class App extends Component {
     );
   }
 }
-
+`
